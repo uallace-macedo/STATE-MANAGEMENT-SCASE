@@ -19,12 +19,15 @@ O projeto não tem pressa para acabar, crescerá conforme estudo.
 Abaixo, registro meu progresso e observações gerais, antes de entrar nos detalhes de cada tecnologia:
 
 ### 🔹 Redux
+> _Status: Finalizado_
+
+🚀 Considerações:
+- O **Redux Tradicional** exige mais configuração manual, com `createStore()`, `combineReducers()`, ações separadas e um controle mais rigoroso da imutabilidade do estado (`spread operator`), o que gera mais código boilerplate. Já o **Redux Toolkit** simplifica tudo com `createSlice()`, que une estado, ações e reducers em um só lugar, além de usar o `configureStore()` para criar a Store sem precisar do `combineReducers()`. Ele também **facilita a manipulação do estado** com `Immer`, permitindo modificar diretamente o state **sem necessidade de** `spread operator`. No geral, **Redux Toolkit mantém a estrutura do Redux**, mas *reduz complexidade e repetição*, tornando o gerenciamento de estado **mais eficiente e intuitivo**.
+
+### 🔹 ContextAPI
 > _Status: Ainda não iniciado_
 
 ### 🔹 Zustand
-> _Status: Ainda não iniciado_
-
-### 🔹 ContextAPI
 > _Status: Ainda não iniciado_
 
 ---
